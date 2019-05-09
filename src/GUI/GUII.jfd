@@ -1,0 +1,72 @@
+JFDML JFormDesigner: "6.0.6.2.195" Java: "1.8.0_202-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"foreground": sfield java.awt.Color darkGray
+			"background": sfield java.awt.Color darkGray
+			"iconImage": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\Lenovo\\Downloads\\Documents\\mips.png" )
+			"title": "MIPS ASM"
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				"background": sfield java.awt.Color gray
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "textArea1"
+					"foreground": sfield java.awt.SystemColor text
+					"background": sfield java.awt.Color darkGray
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 0
+				"width": 375
+				"height": 380
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "RUN!"
+				"foreground": sfield java.awt.SystemColor controlShadow
+				"background": sfield java.awt.Color darkGray
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 385
+				"width": 375
+				"height": 30
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane2"
+				"background": sfield java.awt.Color gray
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "textArea2"
+					"editable": false
+					"foreground": sfield java.awt.SystemColor text
+					"background": sfield java.awt.Color darkGray
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 375
+				"y": 0
+				"width": 295
+				"height": 420
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane3"
+				"background": sfield java.awt.Color gray
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "textArea3"
+					"editable": false
+					"foreground": sfield java.awt.SystemColor text
+					"background": sfield java.awt.Color darkGray
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 670
+				"y": 0
+				"width": 270
+				"height": 420
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 940, 450 )
+		} )
+	}
+}
